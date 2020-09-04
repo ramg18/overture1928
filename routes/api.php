@@ -38,3 +38,7 @@ Route::get( 'listaritem/{id}', 'ItemsController@listarItem' );
 Route::put( 'editaritem', 'ItemsController@editarItem' );
 
 Route::post( 'ingresoshare', 'InventarioController@ingresoShare' );
+
+// atovar
+Route::post( 'ingresopartida', 'PartidaController@Demo' );
+Route::get( 'ObtenerPuntosPartida/{id}', 'PartidaController@ObtenerPuntosPartida' );
